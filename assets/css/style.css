@@ -212,7 +212,7 @@ header {
     flex: 1;
 }
 
-.section-aboutus--left p{
+.section-aboutus--left p {
     font-size: 14px;
     line-height: 25px;
 }
@@ -222,8 +222,34 @@ header {
     text-align: center;
 }
 
-.section-aboutus--right img{
+.section-aboutus--right img {
     width: 480px;
     box-shadow: 0px 5px 10px #333;
 }
 
+.section-services {
+    display: flex;
+}
+
+.section-service {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+
+.section-service:first-child {
+    border-left: 1px solid #333;
+}
+
+.section-service h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.section-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
