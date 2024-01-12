@@ -441,6 +441,64 @@ header {
     margin-right: 10px;
 }
 
-.section-team--social a:hover{
+.section-team--social a:hover {
     background-color: #b28756;
 }
+
+.section-client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.section-client--photoinfo {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.section-client--photoinfo p {
+    margin-top: 5px;
+}
+
+.section-client--quote {
+    margin-top: 30px;
+    width: 650px;
+    line-height: 20px;
+    color: #999;
+}
+
+.section-client--quote p {
+    margin-top: 10px;
+}
+
+.section-client .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-client .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-client .pointer.active {
+    background-color: #b28756;
+}
+
+.section-company {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
