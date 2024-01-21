@@ -605,9 +605,10 @@ header {
 }
 
 
-.default.light.premium-bg{
+.default.light.premium-bg {
     background-color: #fff;
     border-top: 1px solid #CCC;
+    text-align: center;
 }
 
 .section-premium {
@@ -625,7 +626,7 @@ header {
     width: 520px;
 }
 
-.section-premium--right .title{
+.section-premium--right .title {
     display: flex;
     text-align: left;
     gap: 15px;
@@ -633,7 +634,7 @@ header {
 }
 
 
-.section-premium--right .title .infos p{
+.section-premium--right .title .infos p {
     font-size: 12px;
     text-transform: none;
     color: #999;
@@ -641,7 +642,8 @@ header {
     margin-bottom: 15px;
     font-weight: 500;
 }
-.section-premium--right .title ul{
+
+.section-premium--right .title ul {
     list-style: none;
     color: #999;
     letter-spacing: 1px;
@@ -654,21 +656,15 @@ header {
     height: 100%;
 }
 
-.slider-premium{
-    display: flex;
-}
-
-.slider-premium .sliders-pointers {
-    width: 100vw;
+.premium-bg .sliders-pointers {
+    margin-top: 30px;
     height: 20px;
-    position: absolute;
-    margin-top: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.slider-premium .pointer {
+.premium-bg .pointer {
     width: 15px;
     height: 15px;
     border: 2px solid #b28756;
@@ -678,6 +674,99 @@ header {
     cursor: pointer;
 }
 
-.slider-premium .pointer.active {
+.premium-bg .pointer.active {
     background-color: #b28756;
+}
+
+.section-facts {
+    display: flex;
+}
+
+.section-fact {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-fact h1 {
+    font-size: 40px;
+    color: #b28756;
+}
+
+.section-fact .line {
+    display: flex;
+    margin: auto;
+    border: 1px solid #999;
+    width: 15px;
+    margin-top: 10px;
+}
+
+.section-fact h4 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.section-fact p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
+
+.light.share-height{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CCC;
+}
+
+.section-share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+ 
+}
+
+.section-share h3 {
+    
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.section-share .social {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.section-share .social p{
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.section-share .social img {
+    clip-path: circle();
+    padding: 10px;
+}
+
+.section-share .social .twitter {
+    background-color: #00ACEC;
+    
+}
+
+.section-share .social .linkedin {
+    background-color: #0274B3;
+}
+
+.section-share .social .facebook {
+    background-color: #0862F7;
+}
+
+.section-share .social .googleplus {
+    background-color: #D54C3F;
+}
+
+.section-share .social .pinterest {
+    background-color: #DF0018;
 }
