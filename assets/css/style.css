@@ -713,7 +713,7 @@ header {
     color: #999;
 }
 
-.light.share-height{
+.light.share-height {
     margin-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #CCC;
@@ -724,11 +724,11 @@ header {
     align-items: center;
     justify-content: center;
     color: #999;
- 
+
 }
 
 .section-share h3 {
-    
+
     margin-left: 20px;
     text-transform: uppercase;
 }
@@ -740,7 +740,7 @@ header {
     margin-left: 100px;
 }
 
-.section-share .social p{
+.section-share .social p {
     font-weight: 600;
     margin-right: 10px;
 }
@@ -752,7 +752,7 @@ header {
 
 .section-share .social .twitter {
     background-color: #00ACEC;
-    
+
 }
 
 .section-share .social .linkedin {
@@ -769,4 +769,51 @@ header {
 
 .section-share .social .pinterest {
     background-color: #DF0018;
+}
+
+.section-contact {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-contact form {
+    width: 500px;
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-contact .name-email {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.section-contact .name-email input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #999;
+    background-color: transparent;
+}
+
+.section-contact input {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #999;
+    background-color: transparent;
+    width: 100%;
+}
+
+.section-contact textarea {
+    margin-top: 40px;
+    resize: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #999;
+    background-color: transparent;
+    width: 100%;
 }
