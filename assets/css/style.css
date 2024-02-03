@@ -931,7 +931,7 @@ CSS DE ÁREAS ESPECÍFICAS
     height: auto;
 }
 
-@media (min-width: 450px) and (max-width:800px) {
+@media (min-width: 450px) and (max-width:820px) {
     .logo {
         margin-left: 30px;
     }
@@ -953,7 +953,7 @@ CSS DE ÁREAS ESPECÍFICAS
         right: 0;
     }
 
-    .manu ul {
+    .menu ul {
         flex-direction: column;
     }
 
@@ -995,6 +995,25 @@ CSS DE ÁREAS ESPECÍFICAS
 
     .section-team {
         max-width: 580px;
+    }
+
+    .section-companies {
+        max-width: 440px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .section-companies--area {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .section-price {
+        flex-wrap: wrap;
+    }
+
+    .section-facts {
+        flex-direction: column;
     }
 
     .section-map {
@@ -1129,7 +1148,6 @@ CSS DE ÁREAS ESPECÍFICAS
         flex-wrap: wrap;
     }
 
-    .section-price {}
 
 
     .section-premium .slidearea {
@@ -1138,7 +1156,6 @@ CSS DE ÁREAS ESPECÍFICAS
 
     .section-facts {
         flex-direction: column;
-
     }
 
     .section-share {
