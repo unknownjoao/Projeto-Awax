@@ -886,9 +886,6 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 
-
-
-
 .section-map {
     background-image: url('../images/mapa.jpg');
     background-size: cover;
@@ -1044,7 +1041,7 @@ CSS DE ÁREAS ESPECÍFICAS
         right: 0;
     }
 
-    .manu ul {
+    .menu ul {
         flex-direction: column;
     }
 
@@ -1100,7 +1097,6 @@ CSS DE ÁREAS ESPECÍFICAS
     }
 
 
-
     .section-projects--filters {
         margin: 0 30px;
     }
@@ -1118,6 +1114,47 @@ CSS DE ÁREAS ESPECÍFICAS
         max-width: 280px;
     }
 
+    .section-companies {
+        max-width: 280px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .section-companies--area {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .section-price {
+        flex-wrap: wrap;
+    }
+
+    .section-price {}
+
+
+    .section-premium .slidearea {
+        flex-direction: column;
+    }
+
+    .section-facts {
+        flex-direction: column;
+
+    }
+
+    .section-share {
+        flex-wrap: wrap;
+    }
+
+    .section-share--legend {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .section-contact {
+        margin: 0 30px;
+    }
 
     .section-map {
         padding: 0;
@@ -1138,5 +1175,12 @@ CSS DE ÁREAS ESPECÍFICAS
 
     .section-map--info {
         width: auto;
+    }
+
+    .footer--area {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
     }
 }
